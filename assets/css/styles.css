@@ -250,13 +250,15 @@ img {
     overflow: hidden;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
     transition: transform 0.3s ease;
-
     display: flex;                 /* side by side layout */
     flex-direction: row;           /* content left, image right */
     align-items: stretch;
     height: auto;
     text-align: left;
      flex-direction: row; 
+}
+.project-card.hidden {
+  display: none !important; /* hide but keep grid structure intact */
 }
 
 
